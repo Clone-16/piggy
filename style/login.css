@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+:root{
+    --header-font-color:#222936;
+    --font-family: PlusJakartaSans-SemiBold, sans-serif;
+    --color-blue:#0d60d8;
+    --input-bgcolor:rgb(235, 235, 235);
+    --label-color:rgb(102, 109, 124);
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_one{
+    width: 500px;
+    margin: auto;
+    min-width: 27vw;
+    height: 100%;
+    padding: 20px 2rem 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.section_one_container{
+    width: 85%;
+    height: 90%;
+    /* background-color: aqua; */
+}
+.top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.top_one{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top_one h1{
+    width: 100%;
+    height: auto;
+    color: var(--header-font-color);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0.35px;
+    padding-bottom: 10px;
+    padding-top: 14px;
+}
+.top_one p{
+    width: 100%;
+    height: auto;
+    color:#595b61;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.top_two{
+    width: 14%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.top_two span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-blue);
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+}
+.middle{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+label{
+    width: 100%;
+    height: auto;
+    letter-spacing: 0;
+    font-size: 12px;
+    color: var(--label-color);
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+input{
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color:rgba(182, 178, 178, 0.418);
+    margin-bottom: 25px;
+}
+input:focus{
+    outline: var(--color-blue) 2px solid;
+}
+::placeholder{
+    color: #7b7c7c;
+    font-weight: 500;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.bottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.bottom button{
+    width: 100%;
+    height: auto;
+    background-color: rgba(11, 11, 245, 0.61);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.one, .two, .three{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.one a, .two a, .three a{
+    font-size: 12px;
+    font-weight: 500;
+}
+.two p{
+    color: var(--label-color);
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color:  #0d60d8;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+    .main{
+    background-color: #1a1a3a; 
+    }
+    .section_one{
+    width: 550px;
+    overflow: scroll;
+    /* background-color: #fff; */
+    }
+    .section_one_container{
+    width: 90%;
+    /* background-color: #fff; */
+    }
+}
+
+@media (max-width:425px) {
+    .section_one{
+        padding: 20px 10px 0 10px;
+    }
+}
