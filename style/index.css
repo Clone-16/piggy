@@ -1282,6 +1282,15 @@ footer{
 
 
 @media (max-width:768px) {
+   .nav{
+    margin: auto;
+    width: 100%;
+    padding: 0px 10px;
+    
+} 
+.nav_container{
+  height: 60px;
+}
   .sec_main_right {
   max-width: 400px;
   height: unset;
