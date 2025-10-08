@@ -1313,6 +1313,18 @@ iframe{
 }
 }
 
+@media (max-width: 580px) {
+   .nav{
+    margin: auto;
+    width: 100%;
+    padding: 0px 10px;
+    
+} 
+.nav_container{
+  height: 60px;
+}
+}
+
 @media(max-width: 460px) {
   .nav{
     margin: auto;
