@@ -1313,17 +1313,16 @@ iframe{
 }
 }
 
-
-
-
-
-
 @media(max-width: 460px) {
   .nav{
     margin: auto;
     width: 100%;
-    padding: 5px 10px;
+    padding: 0px 10px;
+    
 } 
+.nav_container{
+  height: 60px;
+}
 .sec_three_top h1 {
   font-size: 30px;
   line-height: 35px;
