@@ -1362,6 +1362,11 @@ iframe{
 }
 
 @media (max-width:425px) {
+   .nav{
+    margin: auto;
+    width: 100%;
+    padding: 2px 10px;
+} 
   .sec_main_right {
   max-width: 400px;
   height: unset;
