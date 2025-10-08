@@ -1332,6 +1332,12 @@ iframe{
 .nav_container{
   height: 60px;
 }
+.section_two{
+  padding: 60px 25px 20px 25px;
+}
+.sec_two{
+  gap: 40px;
+}
 }
 
 @media(max-width: 460px) {
@@ -1423,12 +1429,11 @@ iframe{
   right: 74%;
   top: 70%;
 }
-/* .one_img{
-  width: 400px;
-  height:400px;
-} */
 .boxes{
   width: unset;
+}
+.section_two{
+  padding: 10px 25px 10px 25px;
 }
 }
 
