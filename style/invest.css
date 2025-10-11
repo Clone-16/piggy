@@ -222,6 +222,77 @@
 
 
 
+.sidebar{
+    position: absolute;
+    height: 91.5vh;
+    width: 100%;
+    max-width: 902px;
+    right: 0;
+    top: 70px;
+    z-index: 999;
+    background-color: white;
+    padding: 50px 10px;
+     display: flex;
+    flex-direction: column;
+    display: none;
+}
+.sidebar.active{
+    display: block;
+    visibility: visible;
+}
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar ul li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sidebar ul li a{
+    font-size: 15px;
+    font-weight: 500;
+    color: #05121d;
+}
+.sidebar .btn1{
+    border: 1.5px solid  #212337 ;
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #05121d;
+    font-size: 15px;
+    font-weight: 500;
+}
+.sidebar .btn2{
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    background-color:  #212337;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.sidebar .btn1 a{ 
+  color: #212331;
+}
+.sidebar .btn2 a{
+  color: white;
+}
+
+
+
 .section_one{
   width: 100%;
   height:auto;
